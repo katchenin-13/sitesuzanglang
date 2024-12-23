@@ -71,9 +71,9 @@
                   @foreach ($contenus as $contenu)
                   {{-- @if ($contenu->type=="blog_7") {!!$contenu->contenu!!}  @endif --}}
                   @if ($contenu->type=="blog_7" && app()->getLocale() == 'fr')
-                  {!!$contenu->extrait!!}
+                  {!!$contenu->contenu!!}
                   @else
-                  {!!$contenu->extraitang!!}
+                  {!!$contenu->contenus!!}
                   @endif
                 @endforeach 
               </div>

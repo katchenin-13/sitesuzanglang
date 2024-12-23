@@ -1,0 +1,76 @@
+@media all and (min-width: 1366px) {
+    .navbar .dropdown .dropdown ul {
+        left: -90%;
+    }
+
+    .navbar .dropdown .dropdown:hover>ul {
+        left: -100%;
+    }
+
+    .positionpere {
+        position: relative !important;
+    }
+
+    .positionfil {
+        position: absolute !important;
+    }
+
+    .pilicecon {
+        font-size: 26px;
+    }
+
+    .textecentrer {
+        /* text-align: end; */
+    }
+
+    .actest {
+        margin-left: 360px;
+    }
+
+    .actestpos {
+        margin-top: -140px;
+    }
+
+    .actestbapos {
+        margin-bottom: 65px
+    }
+
+    .contpolice {
+        font-size: 20px;
+        /* margin-left: 30px; */
+        /* padding-left: 5px; */
+        padding-bottom: 20px;
+
+    }
+
+    .lesautrepageba {
+        max-height: 400px;
+    }
+
+    .refpolice11 {
+        font-size: 22px !important;
+        padding-left: 13px;
+        padding-right: 14px;
+    }
+
+    .policeright {
+        font-size: 29px;
+    }
+
+    .textgauche {
+        text-align: end;
+    }
+
+    .postext {
+        margin-top: 68px;
+    }
+
+    /* .conteneur {
+	
+  column-count: 2;
+  font-size: 18px;
+  /* text-align: justify; *
+
+} */
+
+}
