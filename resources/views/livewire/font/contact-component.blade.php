@@ -3,14 +3,17 @@
     
     <div class="container">
     
-      <div class="row">
-        @foreach ($contenus as $contenu)
-        @if ($contenu->type=="blog_2")
-             <img src="{{asset('storage')}}/{{$contenu->imageUrl}}" class="card-img-bottom img " alt="..."/>
-        @endif
-      @endforeach
-        {{-- <img src="assets/img/images/RECADRAGE/RECADRAGE-071.png"  class="card-img-bottom im-fluid lesautrepageba animate__animated animate__fadeInDown w-100" alt=""> --}}
-      </div>         
+      <div class="row" style="
+                  margin-top: 157px;
+              ">
+            {{-- @foreach ($contenus as $contenu)
+            @if ($contenu->type=="blog_2")
+            <img src="{{asset('storage')}}/{{$contenu->imageUrl}}" class="card-img-bottom img " alt="..." />
+            @endif
+            @endforeach --}}
+            <img src="{{asset('images/RECADRAGE/RECADRAGE-13.png')}}"
+              class="card-img-bottom im-fluid lesautrepageba animate__animated animate__fadeInDown w-100" alt="">
+          </div>         
       <br>
     </div>
 

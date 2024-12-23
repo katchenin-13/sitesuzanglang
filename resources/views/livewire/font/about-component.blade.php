@@ -50,7 +50,6 @@
                     @endif
                   @endforeach
                   {{-- <h1> DES CHASSEURS RELÂCHES DANS LA VILLES</h1> --}}
-                  
               </h1>
               <div class="row"> 
                   <div class="col-lg-3 col-md-3 col-3">
